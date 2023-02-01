@@ -14,16 +14,16 @@ export default function Navbar() {
           <img className='sub-logo' src={LogoSubtitle} alt='slobodan' /> */}
         </Link>
         <nav>
-          <Link exact='true' activeclassname='active' to='#/' smooth>
+          <Link exact='true' activeclassname='active' className='link' to='#/' smooth>
             <FontAwesomeIcon icon={faHome} color='#4d4d4e' />
           </Link>
-          <Link exact='true' activeclassname='active' className='about-link' to='#about' smooth>
+          <Link exact='true' activeclassname='active' className='link' to='#about' smooth>
             <FontAwesomeIcon icon={faUser} color='#4d4d4e' />
           </Link>
-          <Link exact='true' activeclassname='active' className='portfolio-link' to='#portfolio' smooth>
+          <Link exact='true' activeclassname='active' className='link' to='#portfolio' smooth>
             <FontAwesomeIcon icon={faSuitcase} color='#4d4d4e' />
           </Link>
-          <Link exact='true' activeclassname='active' className='contact-link' to='#contact' smooth>
+          <Link exact='true' activeclassname='active' className='link' to='#contact' smooth>
             <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e' />
           </Link>
         </nav>
