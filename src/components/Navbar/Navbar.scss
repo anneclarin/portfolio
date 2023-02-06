@@ -5,6 +5,16 @@
     justify-content: space-between;
     background-color: #E1F0FA;
     font-size: medium;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.Navbar > img {
+    width: 10vmin;
+    height: 10vmin;
+    padding: 2vmin;
 }
 
 nav > .link, li > a {
