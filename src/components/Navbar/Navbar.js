@@ -11,16 +11,16 @@ export default function Navbar() {
     <div className='Navbar'>
        <img src={logo} alt='Logo' />
         <nav>
-          <Link exact='true' activeclassname='active' className='link' to='#home' smooth>
+          <Link activeClass='active' className='link' spy to='#Home' smooth>
             Home
           </Link>
-          <Link exact='true' activeclassname='active' className='link' to='#about' smooth>
-            About Me
+          <Link activeClass='active' className='link' spy to='#About' smooth>
+            About
           </Link>
-          <Link exact='true' activeclassname='active' className='link' to='#portfolio' smooth>
+          <Link activeClass='active' className='link' spy to='#Portfolio' smooth>
             Portfolio
           </Link>
-          <Link exact='true' activeclassname='active' className='link' to='#contact' smooth>
+          <Link activeClass='active' className='link' spy to='#Contact' smooth>
             Contact
           </Link>
         </nav>

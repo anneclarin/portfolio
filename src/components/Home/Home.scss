@@ -1,3 +1,13 @@
+.Home {
+    padding-top: 20vmin !important;
+    height: 100vmin;
+}
+
 .Home > div > p {
     text-align: center;
+}
+
+.Home > div > p > .link {
+    text-decoration: none;
+    color: #E68FAE; 
 }

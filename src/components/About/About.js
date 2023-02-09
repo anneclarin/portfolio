@@ -4,7 +4,7 @@ import profile from "../../images/profile.jpeg"
 
 export default function About() {
   return (
-    <section className='container About page' id='About'>
+    <section className='container About' id='About'>
         <h1>Getting to Know Me</h1>
         <div>
           <h3>Who Am I?</h3>
@@ -35,6 +35,32 @@ export default function About() {
           my life, I'm looking forward to finding a company that will help me
           continue to hone these skills and grow as a developer.
           </p>
+        </div>
+        <div>
+          <h3>What I Know</h3>
+          <table>
+            <tr>
+              <td>HTML</td>
+              <td>Python</td>
+              <td>Express.js</td>
+              <td>Git</td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>Django</td>
+              <td>Node.js</td>
+              <td>GitHub</td>
+            </tr>
+            <tr>
+              <td>JavaScript</td>
+              <td>PostgreSQL</td>
+              <td>Mongoose</td>
+            </tr>
+            <tr>
+              <td>React</td>
+              <td>MongoDB</td>
+            </tr>
+          </table>
         </div>
         <div>
           <h3>What I Bring</h3>

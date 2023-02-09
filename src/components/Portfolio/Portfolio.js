@@ -7,10 +7,10 @@ import chorechamp from '../../images/ChoreChamp.jpeg'
 
 export default function Portfolio() {
   return (
-    <section className='container Portfolio page' id='Portfolio'>
+    <section className='container Portfolio' id='Portfolio'>
         <h1>My Projects</h1>
         <div className="project-container">
-            <h3>Mancala</h3>
+            <h2>Mancala</h2>
             <h4>Desciption</h4>
             <p>
             Frontend browser game of the classic 2-player board game “Mancala” using HTML, CSS, JavaScript.
@@ -25,7 +25,7 @@ export default function Portfolio() {
             </div>
         </div>
         <div className="project-container">
-            <h3>KitchenKeeper</h3>
+            <h2>KitchenKeeper</h2>
             <h4>Desciption</h4>
             <p>
             Full-stack project using MongoDB, ExpressJS, Node.js for tracking the quantity and expiries of
@@ -39,7 +39,7 @@ export default function Portfolio() {
             </div>
         </div>
         <div className="project-container">
-            <h3>KnowMe.app</h3>
+            <h2>KnowMe.app</h2>
             <h4>Desciption</h4>
             <p>
             Full-stack group project using Python, PostgreSQL, Django that allows users to make and take
@@ -54,7 +54,7 @@ export default function Portfolio() {
             </div>
         </div>
         <div className="project-container">
-            <h3>ChoreChamp</h3>
+            <h2>ChoreChamp</h2>
             <h4>Desciption</h4>
             <p>
             Full-stack project using React, Node.js, MongoDB, ExpressJS to help users keep track of single

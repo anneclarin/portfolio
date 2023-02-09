@@ -1,19 +1,38 @@
 .Contact {
     background-color: #C6E1F2;
-
+    padding-top: 20vmin !important;
 }
 
 .Contact > div > form {
     display: flex;
     flex-direction: column;
     margin: 5vmin 0;
+    justify-content: center;
+    align-items: center;
 }
 
-.Contact > div > form > .contact-info > input, .Contact > div > form > .message > input {
-    width: 75vmin;
-    margin-bottom: 1vmin;
+.Contact > div > p {
+    margin: 0 auto;
+}
+
+.Contact > div > form > .contact-info > input, .Contact > div > form > .message > textarea {
+    width: 100%;
+    margin-bottom: 2vmin;
+}
+
+.Contact > div > form > .message > textarea {
+    height: 25vmin;
 }
 
 .Contact > div > form > .message > input {
     height: 30vmin;
+}
+
+.Contact > div > form > button {
+    background-color: #E68FAE; 
+    border: white;
+    color: white;
+    height: 5vmin;
+    width: 15vmin;
+    font-size: larger;
 }
