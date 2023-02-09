@@ -9,7 +9,7 @@ export default function Contact() {
             find opportunities for internships or Jr. Dev Jobs. <br/> <br/>
             If you would like to chat, send me a message below and I'll be in
             touch! I look forward to hearing from you!</p>
-        <form action="https://formsubmit.co/amtclarin@gmail.com" method="POST">
+        <form action="https://formsubmit.co/clarin@ualberta.ca" method="POST">
           <div className='contact-info'>
             <label>Name</label>
             <input type='text' required />
