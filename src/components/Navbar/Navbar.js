@@ -5,7 +5,6 @@ import { HashLink as Link } from 'react-router-hash-link'
 import logo from '../../images/logo.jpeg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faHome, faUser, faEnvelope, faSuitcase, faBars, faClose } from '@fortawesome/free-solid-svg-icons'
 
 export default function Navbar() {
   return (
@@ -13,16 +12,16 @@ export default function Navbar() {
        <img src={logo} alt='Logo' />
         <nav>
           <Link exact='true' activeclassname='active' className='link' to='#home' smooth>
-            <FontAwesomeIcon icon={faHome} color='#4d4d4e' />
+            Home
           </Link>
           <Link exact='true' activeclassname='active' className='link' to='#about' smooth>
-            <FontAwesomeIcon icon={faUser} color='#4d4d4e' />
+            About Me
           </Link>
           <Link exact='true' activeclassname='active' className='link' to='#portfolio' smooth>
-            <FontAwesomeIcon icon={faSuitcase} color='#4d4d4e' />
+            Portfolio
           </Link>
           <Link exact='true' activeclassname='active' className='link' to='#contact' smooth>
-            <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e' />
+            Contact
           </Link>
         </nav>
         <ul>

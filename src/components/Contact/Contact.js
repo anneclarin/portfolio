@@ -3,9 +3,10 @@ import './Contact.scss'
 export default function Contact() {
   return (
     <section className='container Contact page' id='Contact'>
-        <h1>I would love to get in contact with you!</h1>
+      <h1>I would love to get in contact with you!</h1>
+      <div>
         <p>I am interested in meeting new people, building connections, and
-            finding opportunities for internships or Jr. Dev Jobs. <br/>
+            finding opportunities for internships or Jr. Dev Jobs. <br/> <br/>
             If you would like to chat, send me a message below and I'll be in
             touch! I look forward to hearing from you!</p>
         <form>
@@ -17,6 +18,7 @@ export default function Contact() {
             <input type='text' placeholder='Message to Anne' />
           </div>
         </form>
+      </div>
     </section>
   )
 }

@@ -1,18 +1,19 @@
 .Contact {
     background-color: #C6E1F2;
+
 }
 
-.Contact > form {
+.Contact > div > form {
     display: flex;
     flex-direction: column;
     margin: 5vmin 0;
 }
 
-.Contact > form > .contact-info > input, .Contact > form > .message > input {
-    width: 50vmin;
+.Contact > div > form > .contact-info > input, .Contact > div > form > .message > input {
+    width: 75vmin;
     margin-bottom: 1vmin;
 }
 
-.Contact > form > .message > input {
+.Contact > div > form > .message > input {
     height: 30vmin;
 }

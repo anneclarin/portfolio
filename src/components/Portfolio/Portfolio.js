@@ -1,5 +1,10 @@
 import './Portfolio.scss'
 
+import mancala from '../../images/Mancala.jpeg'
+import kitchenkeeper from '../../images/KitchenKeeper.jpeg'
+import knowmeapp from '../../images/KnowMeApp.jpeg'
+import chorechamp from '../../images/ChoreChamp.jpeg'
+
 export default function Portfolio() {
   return (
     <section className='container Portfolio page' id='Portfolio'>
@@ -13,6 +18,7 @@ export default function Portfolio() {
             game also accounts for the Steal and Play Again special moves. Winner logic is also featured
             following the regular rules.
             </p>
+            <img src={mancala} alt='Mancala Screenplay'/>
             <div className='project-links'>
                 <a href="https://github.com/AnneClarin/mancala">View Repo</a>
                 <a href="https://anneclarin.github.io/mancala/">Let's Play!</a>
@@ -23,10 +29,10 @@ export default function Portfolio() {
             <h4>Desciption</h4>
             <p>
             Full-stack project using MongoDB, ExpressJS, Node.js for tracking the quantity and expiries of
-            food and supplies with the option to include recipes. Initial features include creating an
-            account, logging in, adding new items, editing and deleting items, adding new recipes, and
+            food and supplies with the option to include recipes. Initial features include adding new items, editing and deleting items, adding new recipes, and
             editing and deleting recipes.
             </p>
+            <img src={kitchenkeeper} alt='KitchenKeeper Landing Page'/>
             <div className='project-links'>
                 <a href="https://github.com/AnneClarin/kitchen-keeper">View Repo</a>
                 <a href="https://kitchenkeeper.up.railway.app/">Start Tracking Your Kitchen!</a>
@@ -42,6 +48,7 @@ export default function Portfolio() {
             Scrum Master/Frontend Developer: organized the Trello board, facilitated standups,
             and assisted with frontend functionality - primarily the HTML and JS.
             </p>
+            <img src={knowmeapp} alt='KnowMe.app Logged In Landing Page'/>
             <div className='project-links'>
                 <a href="https://github.com/AnneClarin/knowme_app">View Repo</a>
             </div>
@@ -54,6 +61,7 @@ export default function Portfolio() {
             and recurring chores. Initial features include creating an account, logging in, adding new
             chores for single-use or recurring dates, and marking them as completed.
             </p>
+            <img src={chorechamp} alt='ChoreChamp Logged In Landing Page'/>
             <div className='project-links'>
                 <a href="https://github.com/AnneClarin/chore-champ">View Repo</a>
                 <a href="https://chore-champ.herokuapp.com/">Become a Chore Champ!</a>

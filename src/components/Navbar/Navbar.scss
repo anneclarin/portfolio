@@ -5,20 +5,27 @@
     justify-content: space-between;
     background-color: #E1F0FA;
     font-size: medium;
-    position: fixed;
-    top: 0;
     width: 100%;
     z-index: 99;
 }
 
 .Navbar > img {
-    width: 10vmin;
-    height: 10vmin;
+    width: 15vmin;
+    height: 15vmin;
     padding: 2vmin;
+    padding-left: 5vmin;
 }
 
 nav > .link, li > a {
     padding: 0 10px;
+    size: 10vmin;
+    text-decoration: none;
+    color:#E68FAE; 
+    font-size: large;
+}
+
+nav > .link:hover {
+    color: 
 }
 
 ul {
