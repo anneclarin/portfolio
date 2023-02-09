@@ -7,7 +7,6 @@ input, textarea {
 
 .container {
   width: 100%;
-  height: 750px;
   opacity: 0;
   margin: 0 auto;
   padding: 5vmin;
@@ -19,6 +18,18 @@ input, textarea {
   align-items: center;
   display: flex;
   flex-direction: column;
+}
+
+.container.Home, .container.Contact {
+  height: 75vmin;
+}
+
+.container.About {
+  height: 150vmin;
+}
+
+.container.Portfolio {
+  height: 300vmin;
 }
 
 .container.Home,
