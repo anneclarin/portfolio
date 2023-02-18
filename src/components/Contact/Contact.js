@@ -9,18 +9,21 @@ export default function Contact() {
             find opportunities for internships or Jr. Dev Jobs. <br/> <br/>
             If you would like to chat, send me a message below and I'll be in
             touch! I look forward to hearing from you!</p>
-        <form action="https://formsubmit.co/amtclarin@gmail.com" method="POST">
-          <div className='contact-info'>
-            <label>Name</label>
-            <input type='text' name='name' required />
-            <label>Email</label>
-            <input type='email' name='email' required />
+        <form target="_blank" action="https://formsubmit.co/amtclarin@gmail.com" method="POST">
+          <div class="form-group">
+            <div class="form-row">
+              <div class="col">
+                <input type="text" name="name" class="form-control" placeholder="Full Name" required />
+              </div>
+              <div class="col">
+                <input type="email" name="email" class="form-control" placeholder="Email Address" required />
+              </div>
+            </div>
           </div>
-          <div className='message'>
-            <label>Message for Anne</label>
-            <textarea name='message' required/>
+          <div class="form-group">
+            <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
           </div>
-          <button type='submit'>Send</button>
+          <button type="submit" class="btn btn-lg btn-dark btn-block">Send!</button>
         </form>
       </div>
     </section>
