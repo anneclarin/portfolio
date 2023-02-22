@@ -20,16 +20,21 @@ input, textarea {
   flex-direction: column;
 }
 
-.container.Home, .container.Contact {
-  height: 75vmin;
+
+.container.Home {
+  min-height: 50vmin;
+}
+
+.container.Contact {
+  min-height: 75vmin;
 }
 
 .container.About {
-  height: 150vmin;
+  min-height: 150vmin;
 }
 
 .container.Portfolio {
-  height: 300vmin;
+  min-height: 300vmin;
 }
 
 .container.Home,
@@ -37,7 +42,7 @@ input, textarea {
 .container.About,
 .container.Portfolio {
     div {
-      width: 75%;
+      width: 85%;
       justify-content: center;
       align-items: center;
     }
@@ -51,6 +56,7 @@ input, textarea {
       position: relative;
       margin-bottom: 40px;
       left: -10px;
+      text-align: center;
 
       &:before {
         font-family: 'Questrial', sans-serif;

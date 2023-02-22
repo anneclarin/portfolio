@@ -15,24 +15,29 @@
     margin: 0 auto;
 }
 
-.Contact > div > form > .contact-info > input, .Contact > div > form > .message > textarea {
+.Contact > div > form > .form-group > .form-row > .col > .form-control {
     width: 100%;
     margin-bottom: 2vmin;
+    margin-left: 15vmin;
+    padding: 1vmin;
 }
 
-.Contact > div > form > .message > textarea {
-    height: 25vmin;
-}
-
-.Contact > div > form > .message > input {
+.Contact > div > form > .form-group > textarea {
     height: 30vmin;
+    width: 74%;
+    margin-bottom: 2vmin;
+    margin-left: 15vmin;
+}
+
+.Contact > div > form > .form-group > .form-row > .col > .form-control {
+    height: 3vmin;
 }
 
 .Contact > div > form > button {
     background-color: #E68FAE; 
     border: white;
     color: white;
-    height: 5vmin;
-    width: 15vmin;
+    height: 10vmin;
+    width: 20vmin;
     font-size: larger;
 }

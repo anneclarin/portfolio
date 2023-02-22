@@ -1,15 +1,28 @@
 .Navbar {
     display: flex;
     align-items: center;
-    justify-content: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: #E1F0FA;
     font-size: medium;
     width: 100%;
     z-index: 99;
-    padding-right: 10vmin;
     position: fixed;
     top: 0;
+    box-sizing: border-box;
+    
+    @media only screen and (max-width:480px) {
+        width: 100%;
+        justify-content: space-evenly;
+        padding-right: 10vmin;
+        font-size: 1rem;
+    }
+
+    @media only screen and (min-width:481px) and (max-width:1150px) {
+        width: 100%;
+        justify-content: space-evenly;
+        padding-right: 10vmin;
+        font-size: 1rem;
+    }
 }
 
 .Navbar > img {
@@ -17,14 +30,25 @@
     height: 15vmin;
     padding: 2vmin;
     padding-left: 10vmin;
+
+    @media only screen and (max-width:480px) {
+        padding-left: 0;
+    }
 }
 
 nav > .link, li > a {
-    padding: 0 1vmin;
     size: 10vmin;
     text-decoration: none;
     color:#E68FAE; 
     font-size: larger;
+}
+
+nav > .link {
+    padding: 0 5vmin;
+}
+
+li > a {
+    padding: 0 1vmin;
 }
 
 nav > .link:hover {
