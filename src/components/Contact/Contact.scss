@@ -1,6 +1,14 @@
 .Contact {
     background-color: #C6E1F2;
     padding-top: 20vmin !important;
+
+    @media only screen and (max-width:480px) {
+        height: 185vmin;
+      }
+    
+    @media only screen and (min-width:481px) and (max-width:1150px) {
+        height: 90vmin;
+    }
 }
 
 .Contact > div > form {
@@ -13,6 +21,7 @@
 
 .Contact > div > p {
     margin: 0 auto;
+    margin-left: 2vmin;
 }
 
 .Contact > div > form > .form-group > .form-row > .col > .form-control {
@@ -20,6 +29,14 @@
     margin-bottom: 2vmin;
     margin-left: 15vmin;
     padding: 1vmin;
+
+    @media only screen and (max-width:480px) {
+        margin-left: 5vmin;
+      }
+    
+    @media only screen and (min-width:481px) and (max-width:1150px) {
+        margin-left: 10vmin;
+    }
 }
 
 .Contact > div > form > .form-group > textarea {
@@ -27,6 +44,14 @@
     width: 74%;
     margin-bottom: 2vmin;
     margin-left: 15vmin;
+
+    @media only screen and (max-width:480px) {
+        margin-left: 5vmin;
+    }
+    
+    @media only screen and (min-width:481px) and (max-width:1150px) {
+        margin-left: 10vmin;
+    }
 }
 
 .Contact > div > form > .form-group > .form-row > .col > .form-control {

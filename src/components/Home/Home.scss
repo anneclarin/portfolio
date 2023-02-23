@@ -1,18 +1,16 @@
 .Home {
     padding-top: 20vmin !important;
     justify-content: center;
-
-    @media only screen and (max-width:480px) {
-        width: 100%;
-        margin-top: 5vmin;
-      }
+    margin: 10vmin 0;
+    width: 100%;
 }
 
-.Home > div > p {
+.Home > div > h4 {
     text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
 }
 
-.Home > div > p > .link {
+.Home > div > h4 > .link {
     text-decoration: none;
     color: #E68FAE; 
 }

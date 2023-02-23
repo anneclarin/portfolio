@@ -7,7 +7,7 @@ export default function About() {
     <section className='container About' id='About'>
         <h1>Getting to Know Me</h1>
         <div>
-          <h3>Who Am I?</h3>
+          <h2>Who Am I?</h2>
           <p>
               I am a full-stack software developer and proud owner of two lovable orange tabby cats named Ozwald and Cozmo. I love keeping active by working out, dancing, and
               playing basketball. Reading novels, manga and
@@ -20,7 +20,7 @@ export default function About() {
         <img src={profile} alt="profile"/>
         </div>
         <div>
-          <h3>My Journey</h3>
+          <h2>My Journey</h2>
           <p>
               I graduated from the University of Alberta with a specialization in
           Cell Biology. My first full-time job as the Medical Office Manage at a denture clinic.
@@ -37,7 +37,7 @@ export default function About() {
           </p>
         </div>
         <div>
-          <h3>What I Know</h3>
+          <h2>What I Know</h2>
           <table>
             <tr>
               <td>HTML</td>
@@ -63,7 +63,7 @@ export default function About() {
           </table>
         </div>
         <div>
-          <h3>What I Bring</h3>
+          <h2>What I Bring</h2>
           <p>
               I look forward to adding my kind, bubbly self to any workplace. I
               have a hard working attitude and a desire to learn and grow both

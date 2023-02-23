@@ -12,8 +12,7 @@
     
     @media only screen and (max-width:480px) {
         width: 100%;
-        justify-content: space-evenly;
-        padding-right: 10vmin;
+        justify-content: center;
         font-size: 1rem;
     }
 
@@ -32,7 +31,11 @@
     padding-left: 10vmin;
 
     @media only screen and (max-width:480px) {
-        padding-left: 0;
+        padding-left: 0vmin;
+    }
+
+    @media only screen and (min-width:481px) and (max-width:1150px) {
+        padding-left: 2vmin;
     }
 }
 
@@ -41,14 +44,30 @@ nav > .link, li > a {
     text-decoration: none;
     color:#E68FAE; 
     font-size: larger;
+
+    @media only screen and (max-width:480px) {
+        font-size: large;
+    }
+
+    @media only screen and (min-width:481px) and (max-width:1150px) {
+        padding-left: 2vmin;
+    }
 }
 
 nav > .link {
     padding: 0 5vmin;
+
+    @media only screen and (max-width:480px) {
+        padding: 0 1vmin;
+    }
 }
 
 li > a {
     padding: 0 1vmin;
+
+    @media only screen and (max-width:480px) {
+        padding: 0 1vmin;
+    }
 }
 
 nav > .link:hover {

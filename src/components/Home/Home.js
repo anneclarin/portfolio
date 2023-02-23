@@ -6,7 +6,7 @@ export default function Home() {
     <section className='container Home' id='Home'>
       <h1>Hello, Anne Here and Welcome to My Site!</h1>
       <div>
-        <p>
+        <h4>
         I am a software developer based in Calgary, AB, Canada. <br/> <br/>
         I love making apps that not only look aesthetically pleasing,
         but can be used to improve your day-to-day life!
@@ -16,7 +16,7 @@ export default function Home() {
         <Link activeClass='active' className='link' spy to='#About' smooth>
         ⬇
           </Link>
-        </p>
+        </h4>
       </div>
     </section>
   )
