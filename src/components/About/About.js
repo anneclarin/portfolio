@@ -6,7 +6,7 @@ export default function About() {
   return (
     <section className='container About' id='About'>
         <h1>Getting to Know Me</h1>
-        <div>
+        <div className='me'>
           <h2>Who Am I?</h2>
           <p>
               I am a full-stack software developer and proud owner of two lovable orange tabby cats named Ozwald and Cozmo. I love keeping active by working out, dancing, and
@@ -16,8 +16,8 @@ export default function About() {
               seeing what the world has to offer!
           </p>
         </div>
-        <div>
-        <img src={profile} alt="profile"/>
+        <div className='me'>
+          <img src={profile} alt="profile"/>
         </div>
         <div>
           <h2>My Journey</h2>

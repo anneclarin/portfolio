@@ -1,6 +1,10 @@
 .Contact {
     background-color: #C6E1F2;
     padding-top: 20vmin !important;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
 
     @media only screen and (max-width:480px) {
         height: 185vmin;
@@ -11,7 +15,7 @@
     }
 }
 
-.Contact > div > form {
+.Contact > form {
     display: flex;
     flex-direction: column;
     margin: 5vmin 0;
@@ -19,50 +23,37 @@
     align-items: center;
 }
 
-.Contact > div > p {
-    margin: 0 auto;
-    margin-left: 2vmin;
+.Contact > form > div {
+    width: 100% !important;
 }
 
-.Contact > div > form > .form-group > .form-row > .col > .form-control {
-    width: 100%;
+.Contact > p {
+    text-align: center;
+}
+
+.Contact > form > .form-group > .form-row > .col > .form-control {
     margin-bottom: 2vmin;
-    margin-left: 15vmin;
     padding: 1vmin;
-
-    @media only screen and (max-width:480px) {
-        margin-left: 5vmin;
-      }
-    
-    @media only screen and (min-width:481px) and (max-width:1150px) {
-        margin-left: 10vmin;
-    }
+    width: 85vmin;
 }
 
-.Contact > div > form > .form-group > textarea {
+.Contact > form > .form-group > textarea {
     height: 30vmin;
-    width: 74%;
+    padding: 1vmin;
     margin-bottom: 2vmin;
-    margin-left: 15vmin;
-
-    @media only screen and (max-width:480px) {
-        margin-left: 5vmin;
-    }
-    
-    @media only screen and (min-width:481px) and (max-width:1150px) {
-        margin-left: 10vmin;
-    }
+    width: 85vmin;
 }
 
-.Contact > div > form > .form-group > .form-row > .col > .form-control {
+.Contact > form > .form-group > .form-row > .col > .form-control {
     height: 3vmin;
 }
 
-.Contact > div > form > button {
+.Contact > form > button {
     background-color: #E68FAE; 
     border: white;
     color: white;
     height: 10vmin;
-    width: 20vmin;
+    width: 15vmin;
     font-size: larger;
+    margin: 0 auto;
 }

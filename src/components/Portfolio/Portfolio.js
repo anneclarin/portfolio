@@ -11,7 +11,7 @@ export default function Portfolio() {
         <h1>My Projects</h1>
         <div className="project-container">
             <h2>Mancala</h2>
-            <h4>Desciption</h4>
+            <h4>Description</h4>
             <p>
             Frontend browser game of the classic 2-player board game “Mancala” using HTML, CSS, JavaScript.
             Players take turns selecting which pit to move and the beads will automatically disperse. The
@@ -26,7 +26,7 @@ export default function Portfolio() {
         </div>
         <div className="project-container">
             <h2>KitchenKeeper</h2>
-            <h4>Desciption</h4>
+            <h4>Description</h4>
             <p>
             Full-stack project using MongoDB, ExpressJS, Node.js for tracking the quantity and expiries of
             food and supplies with the option to include recipes. Initial features include adding new items, editing and deleting items, adding new recipes, and
@@ -40,7 +40,7 @@ export default function Portfolio() {
         </div>
         <div className="project-container">
             <h2>KnowMe.app</h2>
-            <h4>Desciption</h4>
+            <h4>Description</h4>
             <p>
             Full-stack group project using Python, PostgreSQL, Django that allows users to make and take
             tests to see who knows them the best. Initial features include creating an account, logging,
@@ -55,7 +55,7 @@ export default function Portfolio() {
         </div>
         <div className="project-container">
             <h2>ChoreChamp</h2>
-            <h4>Desciption</h4>
+            <h4>Description</h4>
             <p>
             Full-stack project using React, Node.js, MongoDB, ExpressJS to help users keep track of single
             and recurring chores. Initial features include creating an account, logging in, adding new
