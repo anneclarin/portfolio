@@ -16,9 +16,6 @@ export default function About() {
               seeing what the world has to offer!
           </p>
         </div>
-        <div className='me'>
-          <img src={profile} alt="profile"/>
-        </div>
         <div>
           <h2>My Journey</h2>
           <p>

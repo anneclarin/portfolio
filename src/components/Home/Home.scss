@@ -5,6 +5,20 @@
     width: 100%;
 }
 
+.Home > .me {
+    margin: 0 auto;
+    display: flex;
+}
+
+.Home > .me > img {
+    height: 35vmin;
+    width: 25vmin;
+    border-radius: 50%;
+    border-color: #E68FAE;
+    border-style: dashed;
+    border-width: 0.5rem;
+}
+
 .Home > div > h4 {
     text-align: center;
     font-family: 'Didact Gothic', sans-serif;

@@ -1,10 +1,14 @@
 import './Home.scss'
+import profile from '../../images/profile.jpeg'
 import { HashLink as Link } from 'react-router-hash-link'
 
 export default function Home() {
   return (
     <section className='container Home' id='Home'>
       <h1>Hey There, I'm Anne and Welcome to My Site!</h1>
+      <div className='me'>
+        <img src={profile} alt="profile"/>
+      </div>
       <div>
         <h4>
         I am a software developer based in Calgary, AB, Canada. <br/> <br/>

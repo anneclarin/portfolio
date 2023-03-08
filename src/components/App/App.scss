@@ -21,26 +21,30 @@ input, textarea {
 
 
 .container.Home {
-  min-height: 75vmin;
+  padding-bottom: 10vmin;
+  min-height: 100vmin;
 
     @media only screen and (max-width:480px) {
-      height: 185vmin;
+      min-height: 185vmin;
     }
     
     @media only screen and (min-width:481px) and (max-width:1150px) {
-        height: 90vmin;
+        min-height: 90vmin;
       }
 }
 
 .container.Contact {
+  padding-bottom: 10vmin;
   min-height: 75vmin;
 }
 
 .container.About {
+  padding-bottom: 10vmin;
   min-height: 150vmin;
 }
 
 .container.Portfolio {
+  padding-bottom: 10vmin;
   min-height: 300vmin;
 }
 
